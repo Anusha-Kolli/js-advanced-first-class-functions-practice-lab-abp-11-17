@@ -1,5 +1,6 @@
 // Code your solution in this file!
-const callback = function logDriversNames(drivers){
-  console.log("drivers.names");
+function logDriverNames(drivers){
+  return drivers.forEach(function(driver){
+    return console.log(driver.name);
+  })
 }
-drivers.forEach(callback);
