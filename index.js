@@ -17,5 +17,6 @@ function driversByRevenue(drivers){
   const newArray = function (num1,num2){
     return num1 - num2 ;
   };
-  
+  drivers.revenue.sort(newArray);
+
 }
