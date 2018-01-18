@@ -29,5 +29,8 @@ function driversByName(drivers) {
 
 function totalRevenue(drivers){
   let totalPrice = 0;
+  drivers.forEach(function(revenue){
+    totalPrice +=drivers.revenue;
+  })
 
 }
