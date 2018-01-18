@@ -28,5 +28,6 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers){
+  let totalPrice = 0;
 
 }
