@@ -28,10 +28,5 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers){
-  let totalPrice = 0;
-  drivers.forEach(function(revenue){
-    totalPrice +=drivers.revenue;
-  })
-  return totalPrice;
-
+   return drivers.reduce(function (total, driver) {return total + driver.revenue}, 0)
 }
