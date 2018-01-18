@@ -14,6 +14,7 @@ function logDriversByHometown(drivers,location){
 }
 
 function driversByRevenue(drivers){
+  const newDrivers = drivers.slice();
   const newArray = function (driver1,driver2){
     return driver1 - driver2 ;
   };
