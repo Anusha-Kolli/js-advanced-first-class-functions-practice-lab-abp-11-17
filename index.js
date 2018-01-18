@@ -19,5 +19,4 @@ return newDrivers.sort(function (driver1,driver2){
     return driver1 - driver2 ;
   };)
   drivers.revenue.sort(newArray);
-
 }
