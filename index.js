@@ -14,8 +14,8 @@ function logDriversByHometown(drivers,location){
 }
 
 function driversByRevenue(drivers){
-  const newArray = [drivers];
+  const newArray = function (num1,num2){
+    return num1 - num2 ;
+  };
   
 }
-
-
