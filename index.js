@@ -2,3 +2,4 @@
 const callback = function logDriversNames(drivers){
   console.log("drivers.names");
 }
+drivers.forEach(callback);
